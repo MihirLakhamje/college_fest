@@ -13,7 +13,14 @@ header{
     height:400px;
     object-fit: contain;
 }
-
+.carousel-control-prev{
+    background-color: hsla(354, 80%, 78%, 0.262);
+    width: 20px;
+}
+.carousel-control-next{
+    background-color: hsla(354, 80%, 78%, 0.262);
+    width: 20px;
+}
 .carousel-control-next-icon{
     background-image: url("images/right-arrow.svg");
 }
@@ -22,6 +29,10 @@ header{
 }
 .carousel-inner{
     /* background-color: yellow; */
-    width: 60vw;
+    width: 70vw;
     margin: auto;
+}
+.carousel-item{
+    height: max-content;
+    align-items: center;
 }
