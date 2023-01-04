@@ -1,6 +1,12 @@
+:root{
+    --primary-color: #c8a370;
+    --primary-hover: #e3b473;
+    --secondary-color: #15100d;
+}
+
 header{
-    background-color: #15100d;
-    color: #c8a370;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 body{
     background-color: #000000;
@@ -43,4 +49,48 @@ body{
 .carousel-item{
     height: max-content;
     align-items: center;
+}
+
+
+/* Event sections */
+.accordion-button{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.accordion {
+    --bs-accordion-color: var(--primary-color);
+    --bs-accordion-bg: var(--secondary-color);
+    --bs-accordion-btn-focus-border-color: var(--secondary-color);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--primary-color);
+    --bs-accordion-body-padding-x: 1rem;
+    --bs-accordion-body-padding-y: 0rem;
+    --bs-accordion-active-color: var(--secondary-color);
+    --bs-accordion-active-bg: var(--primary-color);
+}
+
+.list-group-item{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* .list-group{
+    --bs-list-group-border-color: var(--primary-color);
+} */
+
+.btn-primary {
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: var(--secondary-color);
+    --bs-btn-hover-bg: var(--primary-hover);
+    --bs-btn-hover-border-color: var(--primary-hover);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--secondary-color);
+    --bs-btn-active-border-color: var(--secondary-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
 }
