@@ -15,5 +15,13 @@ header{
 }
 
 .carousel-control-next-icon{
-    background-image: url("images/data_image_svg+xml\,….svg");
+    background-image: url("images/right-arrow.svg");
+}
+.carousel-control-prev-icon{
+    background-image: url("images/left-arrow.svg");
+}
+.carousel-inner{
+    /* background-color: yellow; */
+    width: 60vw;
+    margin: auto;
 }
