@@ -36,3 +36,7 @@ header{
     height: max-content;
     align-items: center;
 }
+.team-details{
+    margin: 3rem 0rem;
+    background-color: black;
+}
