@@ -1,0 +1,19 @@
+header{
+    background-color: hsl(354, 80%, 78%);
+}
+.utkarsh-hero{
+    background-color: black;
+    /* border: 2px solid red; */
+    /* background-image: url('images/back.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.utkarsh-hero .row img{
+    height:400px;
+    object-fit: contain;
+}
+
+.carousel-control-next-icon{
+    background-image: url("images/data_image_svg+xml\,….svg");
+}
