@@ -1,8 +1,16 @@
 header{
-    background-color: hsl(354, 80%, 78%);
+    background-color: #15100d;
+    color: #c8a370;
+}
+body{
+    background-color: #000000;
+    color: #c8a370;
+}
+.brand-logo{
+    width: 100px;
 }
 .utkarsh-hero{
-    background-color: black;
+    background-color: #000000;
     /* border: 2px solid red; */
     /* background-image: url('images/back.png');
     height: 400px;
