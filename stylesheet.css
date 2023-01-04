@@ -1,5 +1,10 @@
 header{
-    background-color: hsl(354, 80%, 78%);
+    background-color: #15100d;
+    color: #c8a370;
+}
+body{
+    background-color: #000000;
+    color: #c8a370;
 }
 .utkarsh-hero{
     background-color: black;
@@ -39,4 +44,8 @@ header{
 .team-details{
     margin: 3rem 0rem;
     background-color: black;
+}
+.team-details p:first-child{
+    margin:0px;
+    background-color: #15100d;
 }
