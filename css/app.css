@@ -1,0 +1,46 @@
+header{
+    background-color: #15100d;
+    color: #c8a370;
+}
+body{
+    background-color: #000000;
+    color: #c8a370;
+}
+.brand-logo{
+    width: 100px;
+}
+.utkarsh-hero{
+    background-color: #000000;
+    /* border: 2px solid red; */
+    /* background-image: url('images/back.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.utkarsh-hero .row img{
+    height:400px;
+    object-fit: contain;
+}
+.carousel-control-prev{
+    background-color: hsla(354, 80%, 78%, 0.262);
+    width: 20px;
+}
+.carousel-control-next{
+    background-color: hsla(354, 80%, 78%, 0.262);
+    width: 20px;
+}
+.carousel-control-next-icon{
+    background-image: url("images/right-arrow.svg");
+}
+.carousel-control-prev-icon{
+    background-image: url("images/left-arrow.svg");
+}
+.carousel-inner{
+    /* background-color: yellow; */
+    width: 70vw;
+    margin: auto;
+}
+.carousel-item{
+    height: max-content;
+    align-items: center;
+}
