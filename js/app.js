@@ -44,25 +44,25 @@ const team_details = [
         "name":"Hidayat Pathan",
         "image":"images/Hidayat.jpg",
         "designation":"Digital Media HOD",
-        "phone":"+91 75063 97374"
+        "phone":"+91 77385 26373"
     },
     {
         "name":"Rutuja Dhoke",
         "image":"images/Rutuja.jpg",
         "designation":"Admin & Logistics HOD, Security HOD",
-        "phone":"+91 75063 97374"
+        "phone":"+91 88283 68293"
     },
     {
         "name":"Indrayani Phadtare",
         "image":"images/Indrayani.jpg",
         "designation":"Finance Core",
-        "phone":"+91 75063 97374"
+        "phone":"+91 77788 84884"
     },
     {
         "name":"Sargam Thakur",
         "image":"images/Sargam.jpg",
         "designation":"Finance Core",
-        "phone":"+91 75063 97374"
+        "phone":"+91 99208 37184"
     },
     {
         "name":"Drashti Pathak",
@@ -74,13 +74,13 @@ const team_details = [
         "name":"Lulua Gadiwala",
         "image":"images/Lullu.jpg",
         "designation":"Creativity",
-        "phone":"+91 75063 97374"
+        "phone":"+91 86525 35297"
     },
     {
         "name":"Nirali Doshi",
-        "image":"images/somaiya_vidyavihar.png",
+        "image":"images/Nirali.jpg",
         "designation":"Public Relations HOD",
-        "phone":"+91 75063 97374"
+        "phone":"+91 98924 26762"
     }
 
 ]
