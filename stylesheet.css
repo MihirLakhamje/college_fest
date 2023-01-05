@@ -150,7 +150,7 @@ body{
     object-fit: contain;
     border-radius: 5px;
     filter: grayscale(20%);
-    transition:filter ease 1s
+    transition:filter ease-in 0.2s
 }
 .card-text{
     display: flex;

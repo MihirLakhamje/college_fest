@@ -80,12 +80,6 @@ const team_details = [
         "phone":"+91 7506549065"
     },
     {
-        "name":"Aayushi Bhawan",
-        "image":"images/",
-        "designation":"Management HOD",
-        "phone":"+91 8828761937"
-    },
-    {
         "name":"Laxmi Harijan",
         "image":"images/Laxmi (Medium).JPG",
         "designation":"Informals HOD",
@@ -171,10 +165,10 @@ const team_details = [
     },
     {
         "name":"Preeti Gupta",
-        "image":"images/Preeti (Medium).jpg",
+        "image":`images/Preeti_2 (Medium).jpg`,
         "designation":"Public Relation AHOD",
         "phone":"+91 8355868706"
-    },
+    }
 ]
 
 const contact_details = [
