@@ -39,7 +39,50 @@ const team_details = [
         "image":"images/Anish.jpg",
         "designation":"Events HOD",
         "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Hidayat Pathan",
+        "image":"images/Hidayat.jpg",
+        "designation":"Digital Media HOD",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Rutuja Dhoke",
+        "image":"images/Rutuja.jpg",
+        "designation":"Admin & Logistics HOD, Security HOD",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Indrayani Phadtare",
+        "image":"images/Indrayani.jpg",
+        "designation":"Finance Core",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Sargam Thakur",
+        "image":"images/Sargam.jpg",
+        "designation":"Finance Core",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Drashti Pathak",
+        "image":"images/Anish.jpg",
+        "designation":"Finance Core",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Lulua Gadiwala",
+        "image":"images/Lullu.jpg",
+        "designation":"Creativity",
+        "phone":"+91 75063 97374"
+    },
+    {
+        "name":"Nirali Doshi",
+        "image":"images/Anish.jpg",
+        "designation":"Public Relations HOD",
+        "phone":"+91 75063 97374"
     }
+
 ]
 
 const contact_details = [

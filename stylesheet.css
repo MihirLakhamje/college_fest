@@ -158,3 +158,6 @@ body{
 .table th{
     color: hsl(35, 60%, 50%);
 }
+.table td{
+    color:hsl(35, 20%, 61%);
+}
