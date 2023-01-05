@@ -3,6 +3,15 @@ const team_container = document.querySelector(".team-details .row")
 const contact_container = document.querySelector(".table tbody")
 console.log(contact_container);
 
+let literary_embed = document.querySelector("#la-embed");
+let fine_embed = document.querySelector("#fa-embed");
+let media_embed = document.querySelector("#mm-embed");
+let sport_embed = document.querySelector("#ss-embed");
+let esport_embed = document.querySelector("#es-embed");
+let performing_embed = document.querySelector("#pa-embed");
+let management_embed = document.querySelector("#ma-embed");
+let informal_embed = document.querySelector("#in-embed");
+
 const team_details = [
     {
         "name": "Gouri Sanjay Naik",
@@ -99,345 +108,546 @@ contact_details.forEach(row => {
 
 
 // event details
-const event_details = [
+const literary_arts = [
     {
-        "Literary Arts": [
-            {
-                "name": "Human Crossword",
-                "duration": 1.5,
-                "player": 1,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Grammar Nazi",
-                "duration": 1.5,
-                "player": 2,
-                "category": "Standard",
-                "link": "https://docs.google.com/forms/d/1wSOGZD8NI8HG94Bxprm1b1PW76RD1qfZjqUMr1mZ7lI/viewform?ts=63b66ba4&edit_requested=true"
-            },
-            {
-                "name": "Niveau Relay (story relay)",
-                "duration": 1.5,
-                "Player": 4,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Minutieux (JAM)",
-                "duration": 2,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Stoecia's Alegy (Poetry writing)",
-                "duration": 1,
-                "player": 1,
-                "category": "Basic",
-                "link": ""
-            },
-            {
-                "name": "Illusion Of Matrix(debate)",
-                "duration": 1.5,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            }
-        ]
+        "la_name": "Human Crossword",
+        "la_duration": 1.5,
+        "la_player": 1,
+        "la_category": "Premium",
+        "la_link": ""
     },
     {
-        "Fine Arts": [
-            {
-                "name": "Sneakerent(sneaker painting)",
-                "duration": 2,
-                "player": 1,
-                "category": "Premium",
-                "link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
-            },
-            {
-                "name": "Streak Art(face painting + makeup)",
-                "duration": 2,
-                "player": 3,
-                "category": "Standard",
-                "link": "https://docs.google.com/forms/d/1Sqh9JV28v0kadLY4ojP8v9oKLA2jlgxjJlXvILk5Ygg/viewform?ts=63b66edd&edit_requested=true"
-            },
-            {
-                "name": "Pov Topia",
-                "duration": 2,
-                "player": 1,
-                "category": "Basic",
-                "link": "https://docs.google.com/forms/d/1MORbFSINk691FXwga9K9sxlob2-3B1uC9jAWzProBKI/viewform?ts=63b66f7d&edit_requested=true"
-            },
-            {
-                "name": "Peinture de Sac(tote bag painting)",
-                "duration": 2,
-                "player": 1,
-                "category": "Flagship",
-                "link": "https://docs.google.com/forms/d/1cyOe6uY4k30pJlRX-cyUXfej_kITAG0XnO3lb19EN9A/viewform?ts=63b66fb4&edit_requested=true"
-            },
-            {
-                "name": "Onirique (origami art)",
-                "duration": 2,
-                "player": 1,
-                "category": "Permium",
-                "link": "https://docs.google.com/forms/d/1kjKf3rnjS0RHUVGHz4FwgV_JEiZBjcBW5mTRsmw2qK8/viewform?ts=63b67085&edit_requested=true"
-            }
-        ]
+        "la_name": "Grammar Nazi",
+        "la_duration": 1.5,
+        "la_player": 2,
+        "la_category": "Standard",
+        "la_link": "https://docs.google.com/forms/d/1wSOGZD8NI8HG94Bxprm1b1PW76RD1qfZjqUMr1mZ7lI/viewform?ts=63b66ba4&edit_requested=true"
     },
     {
-        "Mass Media": [
-            {
-                "name": "Fluorite's magic (ad film)",
-                "duration": 2.5,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Capture the perceiving of Gaia",
-                "duration": 2,
-                "player": 1,
-                "category": "Premium",
-                "link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
-            },
-            {
-                "name": "Shoot the Amethyst (journalism+short film)",
-                "duration": "Entire Day",
-                "player": 3,
-                "category": "Premium",
-                "link": "https://docs.google.com/forms/d/1OEhW-gUsVwNR55vWEhnyztARPYLHZ6va9qPhOpy-_x8/viewform?ts=63b66a7a&edit_requested=true"
-            },
-            {
-                "name": "Story of wuther and Brow(Story board)",
-                "duration": 3,
-                "player": 1,
-                "category": "Flagship",
-                "link": "https://docs.google.com/forms/d/1emTWQNDXvUSK_8kiFhqrANis-TzeDaUlxMieWOS7QW0/viewform?ts=63b66a95&edit_requested=true"
-            },
-            {
-                "name": "Spot the visage (model photography)",
-                "duration": 2,
-                "player": "1 + 1 Model",
-                "category": "Standard",
-                "link": "https://docs.google.com/forms/d/1Iz920dUk-AOeOOLwYu09DXdxZ1hCTMlqottXyhSciYY/viewform?ts=63b66ae6&edit_requested=true"
-            }
-        ]
+        "la_name": "Niveau Relay (story relay)",
+        "la_duration": 1.5,
+        "la_player": 4,
+        "la_category": "Premium",
+        "la_link": ""
     },
     {
-        "Sports": [
-            {
-                "name": "All white (box cricket)",
-                "fees": 500,
-                "player": 6,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Fast and flashy(rink football)",
-                "fees": 700,
-                "player": 7,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Penumbra(Blind fold chess)",
-                "fees": 150,
-                "player": 2,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Table Tennis (conqerst of table)",
-                "fees": 100,
-                "player": 1,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "The shuffle board (carrom)",
-                "fees": 100,
-                "player": 1,
-                "category": "Standard",
-                "link": ""
-            },
-            {
-                "name": "Hercules",
-                "fees": 100,
-                "player": 1,
-                "category": "Flagship",
-                "link": ""
-            }
-        ]
+        "la_name": "Minutieux (JAM)",
+        "la_duration": 2,
+        "la_player": 2,
+        "la_category": "Flagship",
+        "la_link": ""
     },
     {
-        "E-Sports": [
-            {
-                "name": "FIFA",
-                "fees": 100,
-                "player": 1,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Valorant",
-                "fees": 500,
-                "player": 5,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "BGMI (Classic)",
-                "fees": 200,
-                "player": "4 + 1",
-                "category": "Standard",
-                "link": ""
-            },
-            {
-                "name": "BGMI (TDM)",
-                "fees": 100,
-                "player": "4 + 1",
-                "category": "Standard",
-                "link": ""
-            },
-            {
-                "name": "CODM",
-                "fees": 200,
-                "player": "4 + 1",
-                "category": "Standard",
-                "link": ""
-            }
-        ]
+        "la_name": "Stoecia's Alegy (Poetry writing)",
+        "la_duration": 1,
+        "la_player": 1,
+        "la_category": "Basic",
+        "la_link": ""
     },
     {
-        "Performing Arts": [
-            {
-                "name": "Salam-e-sur (Solo Singing)",
-                "duration": 2.5,
-                "player": 1,
-                "category": "Basic",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLScYQ-X1lVjpRdOVCAjHOEiosyNvG_A_1ekwUvD8dyMXQlbXDA/viewform?edit_requested=true"
-            },
-            {
-                "name": "Rap + Beatboxing",
-                "duration": 2.5,
-                "player": 2,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Ha ha Hilarious (Stand Up)",
-                "duration": 3.5,
-                "player": 1,
-                "category": "Standard",
-                "link": ""
-            },
-            {
-                "name": "Rab Ne Bana Di Jodi (Group Dance)",
-                "duration": 2.5,
-                "player": 1,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Forge The Beat (Band)",
-                "duration": 2.5,
-                "player": 1,
-                "category": "Premium",
-                "link": ""
-            },
-            {
-                "name": "Halla bol (street play)",
-                "duration": 2.5,
-                "player": 1,
-                "category": "Basic",
-                "link": ""
-            },
-            {
-                "name": "Face off (Cypher)",
-                "duration": 4,
-                "player": 1,
-                "category": "Flagship",
-                "link": "https://docs.google.com/forms/d/e/1FAIpQLSdxNKPdPMpKyEvafuFUDpq0DrRxnNCXnNMVni8r6g0F3xDzYA/viewform?edit_requested=true"
-            },
-        ]
+        "la_name": "Illusion Of Matrix(debate)",
+        "la_duration": 1.5,
+        "la_player": 2,
+        "la_category": "Flagship",
+        "la_link": ""
+    }
+];
+
+
+
+const fine_arts = [
+    {
+        "fa_name": "Sneakerent(sneaker painting)",
+        "fa_duration": 2,
+        "fa_player": 1,
+        "fa_category": "Premium",
+        "fa_link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
     },
     {
-        "Management": [
-            {
-                "name": "Product war",
-                "duration": 3,
-                "player": 2,
-                "category": "Standard",
-                "link": "https://docs.google.com/forms/d/1_ksPu1Iqh7VlyZIv2nk1YV3e1nz2lCMmvGPcbCOJk8g/viewform?ts=63b66b07&edit_requested=true"
-            },
-            {
-                "name": "Occupational maze",
-                "duration": 3,
-                "player": 2,
-                "category": "Premium",
-                "link": "https://docs.google.com/forms/d/1LgIWTBRDWImCit0xvVn4SYXocbipf4fs8VedB58DiWo/viewform?ts=63b66b1e&edit_requested=true"
-            },
-            {
-                "name": "Merger ferd",
-                "duration": 3,
-                "player": 1,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Mock Stock",
-                "duration": 3,
-                "player": 1,
-                "category": "Flagship",
-                "link": ""
-            }
-        ]
+        "fa_name": "Streak Art(face painting + makeup)",
+        "fa_duration": 2,
+        "fa_player": 3,
+        "fa_category": "Standard",
+        "fa_link": "https://docs.google.com/forms/d/1Sqh9JV28v0kadLY4ojP8v9oKLA2jlgxjJlXvILk5Ygg/viewform?ts=63b66edd&edit_requested=true"
     },
     {
-        "Informals": [
-            {
-                "name": "Mr & Miss UTKARSH",
-                "duration": 3,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Fashion show",
-                "duration": 3,
-                "player": "8 To 4",
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Escape room",
-                "duration": 3,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "Top 5",
-                "duration": 3,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "War of Cl's",
-                "duration": 3,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            },
-            {
-                "name": "War of DJ's",
-                "duration": 3,
-                "player": 2,
-                "category": "Flagship",
-                "link": ""
-            }
-        ]
+        "fa_name": "Pov Topia",
+        "fa_duration": 2,
+        "fa_player": 1,
+        "fa_category": "Basic",
+        "fa_link": "https://docs.google.com/forms/d/1MORbFSINk691FXwga9K9sxlob2-3B1uC9jAWzProBKI/viewform?ts=63b66f7d&edit_requested=true"
+    },
+    {
+        "fa_name": "Peinture de Sac(tote bag painting)",
+        "fa_duration": 2,
+        "fa_player": 1,
+        "fa_category": "Flagship",
+        "fa_link": "https://docs.google.com/forms/d/1cyOe6uY4k30pJlRX-cyUXfej_kITAG0XnO3lb19EN9A/viewform?ts=63b66fb4&edit_requested=true"
+    },
+    {
+        "fa_name": "Onirique (origami art)",
+        "fa_duration": 2,
+        "fa_player": 1,
+        "fa_category": "Permium",
+        "fa_link": "https://docs.google.com/forms/d/1kjKf3rnjS0RHUVGHz4FwgV_JEiZBjcBW5mTRsmw2qK8/viewform?ts=63b67085&edit_requested=true"
     }
 ]
+
+const mass_media = [
+    {
+        "mm_name": "Fluorite's magic (ad film)",
+        "mm_duration": 2.5,
+        "mm_player": 2,
+        "mm_category": "Flagship",
+        "mm_link": ""
+    },
+    {
+        "mm_name": "Capture the perceiving of Gaia",
+        "mm_duration": 2,
+        "mm_player": 1,
+        "mm_category": "Premium",
+        "mm_link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
+    },
+    {
+        "mm_name": "Shoot the Amethyst (journalism+short film)",
+        "mm_duration": "Entire Day",
+        "mm_player": 3,
+        "mm_category": "Premium",
+        "mm_link": "https://docs.google.com/forms/d/1OEhW-gUsVwNR55vWEhnyztARPYLHZ6va9qPhOpy-_x8/viewform?ts=63b66a7a&edit_requested=true"
+    },
+    {
+        "mm_name": "Story of wuther and Brow(Story board)",
+        "mm_duration": 3,
+        "mm_player": 1,
+        "mm_category": "Flagship",
+        "mm_link": "https://docs.google.com/forms/d/1emTWQNDXvUSK_8kiFhqrANis-TzeDaUlxMieWOS7QW0/viewform?ts=63b66a95&edit_requested=true"
+    },
+    {
+        "mm_name": "Spot the visage (model photography)",
+        "mm_duration": 2,
+        "mm_player": "1 + 1 Model",
+        "mm_category": "Standard",
+        "mm_link": "https://docs.google.com/forms/d/1Iz920dUk-AOeOOLwYu09DXdxZ1hCTMlqottXyhSciYY/viewform?ts=63b66ae6&edit_requested=true"
+    }
+]
+
+const sports = [
+    {
+        "ss_name": "All white (box cricket)",
+        "ss_fees": 500,
+        "ss_player": 6,
+        "ss_category": "Flagship",
+        "ss_link": ""
+    },
+    {
+        "ss_name": "Fast and flashy(rink football)",
+        "ss_fees": 700,
+        "ss_player": 7,
+        "ss_category": "Premium",
+        "ss_link": ""
+    },
+    {
+        "ss_name": "Penumbra(Blind fold chess)",
+        "ss_fees": 150,
+        "ss_player": 2,
+        "ss_category": "Premium",
+        "ss_link": ""
+    },
+    {
+        "ss_name": "Table Tennis (conqerst of table)",
+        "ss_fees": 100,
+        "ss_player": 1,
+        "ss_category": "Premium",
+        "ss_link": ""
+    },
+    {
+        "ss_name": "The shuffle board (carrom)",
+        "ss_fees": 100,
+        "ss_player": 1,
+        "ss_category": "Standard",
+        "ss_link": ""
+    },
+    {
+        "ss_name": "Hercules",
+        "ss_fees": 100,
+        "ss_player": 1,
+        "ss_category": "Flagship",
+        "ss_link": ""
+    }
+]
+
+const esports = [
+    {
+        "es_name": "FIFA",
+        "es_fees": 100,
+        "es_player": 1,
+        "es_category": "Premium",
+        "es_link": ""
+    },
+    {
+        "es_name": "Valorant",
+        "es_fees": 500,
+        "es_player": 5,
+        "es_category": "Flagship",
+        "es_link": ""
+    },
+    {
+        "es_name": "BGMI (Classic)",
+        "es_fees": 200,
+        "es_player": "4 + 1",
+        "es_category": "Standard",
+        "es_link": ""
+    },
+    {
+        "es_name": "BGMI (TDM)",
+        "es_fees": 100,
+        "es_player": "4 + 1",
+        "es_category": "Standard",
+        "es_link": ""
+    },
+    {
+        "es_name": "CODM",
+        "es_fees": 200,
+        "es_player": "4 + 1",
+        "es_category": "Standard",
+        "es_link": ""
+    }
+]
+
+const performing_arts = [
+    {
+        "pa_name": "Salam-e-sur (Solo Singing)",
+        "pa_duration": 2.5,
+        "pa_player": 1,
+        "pa_category": "Basic",
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLScYQ-X1lVjpRdOVCAjHOEiosyNvG_A_1ekwUvD8dyMXQlbXDA/viewform?edit_requested=true"
+    },
+    {
+        "pa_name": "Rap + Beatboxing",
+        "pa_duration": 2.5,
+        "pa_player": 2,
+        "pa_category": "Premium",
+        "pa_link": ""
+    },
+    {
+        "pa_name": "Ha ha Hilarious (Stand Up)",
+        "pa_duration": 3.5,
+        "pa_player": 1,
+        "pa_category": "Standard",
+        "pa_link": ""
+    },
+    {
+        "pa_name": "Rab Ne Bana Di Jodi (Group Dance)",
+        "pa_duration": 2.5,
+        "pa_player": 1,
+        "pa_category": "Premium",
+        "pa_link": ""
+    },
+    {
+        "pa_name": "Forge The Beat (Band)",
+        "pa_duration": 2.5,
+        "pa_player": 1,
+        "pa_category": "Premium",
+        "pa_link": ""
+    },
+    {
+        "pa_name": "Halla bol (street play)",
+        "pa_duration": 2.5,
+        "pa_player": 1,
+        "pa_category": "Basic",
+        "pa_link": ""
+    },
+    {
+        "pa_name": "Face off (Cypher)",
+        "pa_duration": 4,
+        "pa_player": 1,
+        "pa_category": "Flagship",
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSdxNKPdPMpKyEvafuFUDpq0DrRxnNCXnNMVni8r6g0F3xDzYA/viewform?edit_requested=true"
+    }
+]
+
+const management = [
+    {
+        "ma_name": "Product war",
+        "ma_duration": 3,
+        "ma_player": 2,
+        "ma_category": "Standard",
+        "ma_link": "https://docs.google.com/forms/d/1_ksPu1Iqh7VlyZIv2nk1YV3e1nz2lCMmvGPcbCOJk8g/viewform?ts=63b66b07&edit_requested=true"
+    },
+    {
+        "ma_name": "Occupational maze",
+        "ma_duration": 3,
+        "ma_player": 2,
+        "ma_category": "Premium",
+        "ma_link": "https://docs.google.com/forms/d/1LgIWTBRDWImCit0xvVn4SYXocbipf4fs8VedB58DiWo/viewform?ts=63b66b1e&edit_requested=true"
+    },
+    {
+        "ma_name": "Merger ferd",
+        "ma_duration": 3,
+        "ma_player": 1,
+        "ma_category": "Flagship",
+        "ma_link": ""
+    },
+    {
+        "ma_name": "Mock Stock",
+        "ma_duration": 3,
+        "ma_player": 1,
+        "ma_category": "Flagship",
+        "ma_link": ""
+    }
+]
+
+const informals = [
+    {
+        "in_name": "Mr & Miss UTKARSH",
+        "in_duration": 3,
+        "in_player": 2,
+        "in_category": "Flagship",
+        "in_link": ""
+    },
+    {
+        "in_name": "Fashion show",
+        "in_duration": 3,
+        "in_player": "8 To 4",
+        "in_category": "Flagship",
+        "in_link": ""
+    },
+    {
+        "in_name": "Escape room",
+        "in_duration": 3,
+        "in_player": 2,
+        "in_category": "Flagship",
+        "in_link": ""
+    },
+    {
+        "in_name": "Top 5",
+        "in_duration": 3,
+        "in_player": 2,
+        "in_category": "Flagship",
+        "in_link": ""
+    },
+    {
+        "in_name": "War of Cl's",
+        "in_duration": 3,
+        "in_player": 2,
+        "in_category": "Flagship",
+        "in_link": ""
+    },
+    {
+        "in_name": "War of DJ's",
+        "in_duration": 3,
+        "in_player": 2,
+        "in_category": "Flagship",
+        "in_link": ""
+    }
+];
+
+
+literary_arts.forEach(ele => {
+    literary_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.la_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.la_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.la_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.la_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.la_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+fine_arts.forEach(ele => {
+    fine_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.fa_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.fa_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.fa_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.fa_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.fa_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+mass_media.forEach(ele => {
+    media_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.mm_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.mm_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.mm_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.mm_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.mm_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+sports.forEach(ele => {
+    sport_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.ss_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.ss_fees}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.ss_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.ss_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.ss_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+esports.forEach(ele => {
+    esport_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.es_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.es_fees}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.es_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.es_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.es_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+performing_arts.forEach(ele => {
+    performing_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.pa_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.pa_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.pa_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.pa_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+management.forEach(ele => {
+    management_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.ma_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.ma_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.ma_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.ma_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.ma_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
+informals.forEach(ele => {
+    informal_embed.innerHTML += `
+        <li class="list-group-item">
+            <div class="container d-flex flex-column row-gap-4 py-4">
+                <h3 class="fs-5">${ele.in_name}</h3>
+                <div class="d-flex justify-content-center t-center row row-gap-4">
+                    <div class="col-lg-4">
+                        <span>Duration:</span>
+                        <span>${ele.in_duration}Hrs</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Players:</span>
+                        <span>${ele.in_player}</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <span>Event Category:</span>
+                        <span>${ele.in_category}</span>
+                    </div>
+                </div>
+                <div class="ms-4">
+                    <a href="${ele.in_link}" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </li>
+    `;
+});
