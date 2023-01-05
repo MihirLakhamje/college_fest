@@ -15,79 +15,79 @@ let informal_embed = document.querySelector("#in-embed");
 const team_details = [
     {
         "name": "Gouri Sanjay Naik",
-        "image": "images/gouri.jpg",
+        "image": "images/gouri (Medium).jpg",
         "designation": "General Secretary",
         "phone": "+91 93266 77304"
     },
     {
         "name": "Karan Chaoudhary",
-        "image": "images/Karan-new.jpg",
+        "image": "images/Karan-new (Medium).jpg",
         "designation": "Joint Secretary",
         "phone": "+91 94635 48165"
     },
     {
         "name": "Sanaeya",
-        "image": "images/sanaeya.jpg",
+        "image": "images/sanaeya (Medium).jpg",
         "designation": "Contingent Leader",
         "phone": "+91 75067 40937"
     },
     {
-        "name": "Teerth Thaakur",
-        "image": "images/Teerth.jpg",
+        "name": "Teerth Santush Thakur",
+        "image": "images/Teerth (Medium).jpg",
         "designation": "A. Contingent Leader",
         "phone": "+91 91360 74510"
     },
     {
         "name": "Mayur Jagtap",
-        "image": "images/Mayur.jpg",
+        "image": "images/Mayur (Medium).jpg",
         "designation": "Events HOD",
         "phone": "+91 97027 11472"
     },
     {
         "name": "Anish Patwardhan",
-        "image": "images/Anish.jpg",
+        "image": "images/Anish (Medium).jpg",
         "designation": "Events HOD",
         "phone": "+91 75063 97374"
     },
     {
         "name":"Hidayat Pathan",
-        "image":"images/Hidayat.jpg",
+        "image":"images/Hidayat (Medium).jpg",
         "designation":"Digital Media HOD",
         "phone":"+91 77385 26373"
     },
     {
+        "name":"Ritu Kaba",
+        "image":"images/Ritu (Medium).jpg",
+        "designation":"Digital Media HOD",
+        "phone":"+91 75063 97374"
+    },
+    {
         "name":"Rutuja Dhoke",
-        "image":"images/Rutuja.jpg",
+        "image":"images/Rutuja (Medium).jpg",
         "designation":"Admin & Logistics HOD, Security HOD",
         "phone":"+91 88283 68293"
     },
     {
         "name":"Indrayani Phadtare",
-        "image":"images/Indrayani.jpg",
-        "designation":"Finance Core",
+        "image":"images/Indrayani (Medium).jpg",
+        "designation":"Finance HOD",
         "phone":"+91 77788 84884"
     },
     {
         "name":"Sargam Thakur",
-        "image":"images/Sargam.jpg",
-        "designation":"Finance Core",
+        "image":"images/Sargam (Medium).jpg",
+        "designation":"Finance HOD",
         "phone":"+91 99208 37184"
     },
     {
-        "name":"Drashti Pathak",
-        "image":"images/somaiya_vidyavihar.png",
-        "designation":"Finance Core",
-        "phone":"+91 75063 97374"
-    },
-    {
         "name":"Lulua Gadiwala",
-        "image":"images/Lullu.jpg",
+        "image":"images/Lullu (Medium).jpg",
         "designation":"Creativity",
         "phone":"+91 86525 35297"
     },
     {
         "name":"Nirali Doshi",
-        "image":"images/Nirali.jpg",
+        "image":"images/Nirali (Medium).jpg",
         "designation":"Public Relations HOD",
         "phone":"+91 98924 26762"
     }
