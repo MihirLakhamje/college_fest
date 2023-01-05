@@ -3,6 +3,12 @@
     --primary-hover: #e3b473;
     --secondary-color: #15100d;
 }
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    .carousel-item{
+         height: 500px;
+         font-size: calc(0.5rem + 1vw);
+    }
+}
 
 header{
     background-color: var(--secondary-color);
