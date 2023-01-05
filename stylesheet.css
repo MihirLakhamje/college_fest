@@ -23,11 +23,6 @@ body{
 }
 .utkarsh-hero{
     background-color: #000000;
-    /* border: 2px solid red; */
-    /* background-image: url('images/back.png');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 .utkarsh-hero .row img{
     height:400px;
@@ -48,7 +43,6 @@ body{
     background-image: url("images/left-arrow.svg");
 }
 .carousel-inner{
-    /* background-color: yellow; */
     width: 70vw;
     margin: auto;
 }
@@ -80,10 +74,6 @@ body{
     color: var(--primary-color);
 }
 
-/* .list-group{
-    --bs-list-group-border-color: var(--primary-color);
-} */
-
 .btn-primary {
     --bs-btn-color: var(--secondary-color);
     --bs-btn-bg: var(--primary-color);
@@ -110,7 +100,6 @@ body{
         text-align: left;
     }
 .team-details{
-    /* margin: 3rem 0rem; */
     background-color: #000000;
 }
 
@@ -127,7 +116,6 @@ body{
     padding: 8px;
 }
 .card p:first-child{
-    /* background-color: yellow; */
     font-size: 1.2rem;
 }
 .card p:nth-child(2){
@@ -138,15 +126,9 @@ body{
 .card-body{
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     justify-content: end;
 }
-/* .card-body p{
-    bottom: 0px;
-} */
 .card img{
-    /* border: 1px solid red; */
-    /* height: 250px; */
     object-fit: contain;
     border-radius: 5px;
     filter: grayscale(20%);
@@ -154,7 +136,6 @@ body{
 }
 .card-text{
     display: flex;
-    /* border: 1px solid red; */
     justify-content: space-between;
 }
 .table th{
