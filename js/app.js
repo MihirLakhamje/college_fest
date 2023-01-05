@@ -66,7 +66,7 @@ const team_details = [
     },
     {
         "name":"Drashti Pathak",
-        "image":"images/Anish.jpg",
+        "image":"images/somaiya_vidyavihar.png",
         "designation":"Finance Core",
         "phone":"+91 75063 97374"
     },
@@ -78,7 +78,7 @@ const team_details = [
     },
     {
         "name":"Nirali Doshi",
-        "image":"images/Anish.jpg",
+        "image":"images/somaiya_vidyavihar.png",
         "designation":"Public Relations HOD",
         "phone":"+91 75063 97374"
     }
