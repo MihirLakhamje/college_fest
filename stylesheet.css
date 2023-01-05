@@ -47,7 +47,7 @@ body{
     margin: auto;
 }
 .carousel-item{
-    height: max-content;
+    min-height: 300px;
     align-items: center;
 }
 
@@ -142,9 +142,18 @@ body{
     color: #cc8c33;
 }
 .table td{
-    color:hsl(35, 20%, 61%);
+    color:#af9f88;
 }
 .card:hover img{
     /* border: 1px solid red; */
     filter: grayscale(0%);
+    color:#af9f88;
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 300px) {
+   .carousel-item{
+        height: 500px;
+        font-size: calc(0.5rem + 1vw);
+   }
 }
