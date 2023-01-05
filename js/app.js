@@ -50,6 +50,48 @@ const team_details = [
         "phone": "+91 75063 97374"
     },
     {
+        "name":"Ashwathy Preman",
+        "image":"images/Ashwathy (Medium).jpg",
+        "designation":"Literary Arts HOD",
+        "phone":"+91 8657842590"
+    },
+    {
+        "name":"Harilakshmi Priyan",
+        "image":"images/Harilaxmi (Medium).JPG",
+        "designation":"Fine Arts HOD",
+        "phone":"+91 8828939889"
+    },
+    {
+        "name":"Saloni Kedari",
+        "image":"images/Saloni (Medium).JPG",
+        "designation":"Mass Media HOD",
+        "phone":"+91 7397938981"
+    },
+    {
+        "name":"Sujit Barui",
+        "image":"images/Sujit (Medium).JPG",
+        "designation":"E-Sports HOD, Sports HOD",
+        "phone":"+91 9987531078"
+    },
+    {
+        "name":"Gayatri Datye",
+        "image":"images/Gayatri (Medium).JPG",
+        "designation":"Performing Arts HOD",
+        "phone":"+91 7506549065"
+    },
+    {
+        "name":"Aayushi Bhawan",
+        "image":"images/",
+        "designation":"Management HOD",
+        "phone":"+91 8828761937"
+    },
+    {
+        "name":"Laxmi Harijan",
+        "image":"images/Laxmi (Medium).JPG",
+        "designation":"Informals HOD",
+        "phone":"+91 9867794618"
+    },
+    {
         "name":"Hidayat Pathan",
         "image":"images/Hidayat (Medium).jpg",
         "designation":"Digital Media HOD",
@@ -62,10 +104,34 @@ const team_details = [
         "phone":"+91 75063 97374"
     },
     {
+        "name":"Disha Jain",
+        "image":"images/Disha (Medium).JPG",
+        "designation":"Digital Media AHOD",
+        "phone":"+91 98673 23597"
+    },
+    {
         "name":"Rutuja Dhoke",
         "image":"images/Rutuja (Medium).jpg",
         "designation":"Admin & Logistics HOD, Security HOD",
         "phone":"+91 88283 68293"
+    },
+    {
+        "name":"Ancey Varghese",
+        "image":"images/Ancey (Medium).jpg",
+        "designation":"Admin & Logistics AHOD",
+        "phone":"+91 91527 99759"
+    },
+    {
+        "name":"Jayhind",
+        "image":"images/Jayhind (Medium).jpg",
+        "designation":"Admin & Logistics AHOD",
+        "phone":"+91 91527 99759"
+    },
+    {
+        "name":"Anuj Yadav",
+        "image":"images/Anuj (Medium).JPG",
+        "designation":"Admin & Logistics AHOD",
+        "phone":"+91 91255 81095"
     },
     {
         "name":"Indrayani Phadtare",
@@ -82,16 +148,33 @@ const team_details = [
     {
         "name":"Lulua Gadiwala",
         "image":"images/Lullu (Medium).jpg",
-        "designation":"Creativity",
+        "designation":"Creativity HOD",
         "phone":"+91 86525 35297"
+    },
+    {
+        "name":"Salman Mapari",
+        "image":"images/Salman (Medium).jpg",
+        "designation":"Creativity AHOD",
+        "phone":"+91 84509 84456"
+    },
+    {
+        "name":"Anshupriya Jha",
+        "image":"images/Anshu (Medium).JPG",
+        "designation":"Creativity AHOD",
+        "phone":"+91 84510 93795"
     },
     {
         "name":"Nirali Doshi",
         "image":"images/Nirali (Medium).jpg",
         "designation":"Public Relations HOD",
         "phone":"+91 98924 26762"
-    }
-
+    },
+    {
+        "name":"Preeti Gupta",
+        "image":"images/Preeti (Medium).jpg",
+        "designation":"Public Relation AHOD",
+        "phone":"+91 8355868706"
+    },
 ]
 
 const contact_details = [

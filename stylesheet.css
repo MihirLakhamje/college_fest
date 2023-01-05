@@ -149,6 +149,8 @@ body{
     /* height: 250px; */
     object-fit: contain;
     border-radius: 5px;
+    filter: grayscale(20%);
+    transition:filter ease 1s
 }
 .card-text{
     display: flex;
@@ -160,4 +162,8 @@ body{
 }
 .table td{
     color:hsl(35, 20%, 61%);
+}
+.card:hover img{
+    /* border: 1px solid red; */
+    filter: grayscale(0%);
 }
