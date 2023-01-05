@@ -15,43 +15,43 @@ let informal_embed = document.querySelector("#in-embed");
 const team_details = [
     {
         "name": "Gouri Sanjay Naik",
-        "image": "images/gouri (Medium).jpg",
+        "image": "images/gouri (Medium).JPG",
         "designation": "General Secretary",
         "phone": "+91 93266 77304"
     },
     {
         "name": "Karan Chaoudhary",
-        "image": "images/Karan-new (Medium).jpg",
+        "image": "images/Karan-new (Medium).JPG",
         "designation": "Joint Secretary",
         "phone": "+91 94635 48165"
     },
     {
         "name": "Sanaeya",
-        "image": "images/sanaeya (Medium).jpg",
+        "image": "images/sanaeya (Medium).JPG",
         "designation": "Contingent Leader",
         "phone": "+91 75067 40937"
     },
     {
         "name": "Teerth Santush Thakur",
-        "image": "images/Teerth (Medium).jpg",
+        "image": "images/Teerth (Medium).JPG",
         "designation": "A. Contingent Leader",
         "phone": "+91 91360 74510"
     },
     {
         "name": "Mayur Jagtap",
-        "image": "images/Mayur (Medium).jpg",
+        "image": "images/Mayur (Medium).JPG",
         "designation": "Events HOD",
         "phone": "+91 97027 11472"
     },
     {
         "name": "Anish Patwardhan",
-        "image": "images/Anish (Medium).jpg",
+        "image": "images/Anish (Medium).JPG",
         "designation": "Events HOD",
         "phone": "+91 75063 97374"
     },
     {
         "name":"Ashwathy Preman",
-        "image":"images/Ashwathy (Medium).jpg",
+        "image":"images/Ashwathy (Medium).JPG",
         "designation":"Literary Arts HOD",
         "phone":"+91 8657842590"
     },
@@ -87,13 +87,13 @@ const team_details = [
     },
     {
         "name":"Hidayat Pathan",
-        "image":"images/Hidayat (Medium).jpg",
+        "image":"images/Hidayat (Medium).JPG",
         "designation":"Digital Media HOD",
         "phone":"+91 77385 26373"
     },
     {
         "name":"Ritu Kaba",
-        "image":"images/Ritu (Medium).jpg",
+        "image":"images/Ritu (Medium).JPG",
         "designation":"Digital Media HOD",
         "phone":"+91 75063 97374"
     },
@@ -105,19 +105,19 @@ const team_details = [
     },
     {
         "name":"Rutuja Dhoke",
-        "image":"images/Rutuja (Medium).jpg",
+        "image":"images/Rutuja (Medium).JPG",
         "designation":"Admin & Logistics HOD, Security HOD",
         "phone":"+91 88283 68293"
     },
     {
         "name":"Ancey Varghese",
-        "image":"images/Ancey (Medium).jpg",
+        "image":"images/Ancey (Medium).JPG",
         "designation":"Admin & Logistics AHOD",
         "phone":"+91 91527 99759"
     },
     {
         "name":"Jayhind",
-        "image":"images/Jayhind (Medium).jpg",
+        "image":"images/Jayhind (Medium).JPG",
         "designation":"Admin & Logistics AHOD",
         "phone":"+91 91527 99759"
     },
@@ -129,25 +129,25 @@ const team_details = [
     },
     {
         "name":"Indrayani Phadtare",
-        "image":"images/Indrayani (Medium).jpg",
+        "image":"images/Indrayani (Medium).JPG",
         "designation":"Finance HOD",
         "phone":"+91 77788 84884"
     },
     {
         "name":"Sargam Thakur",
-        "image":"images/Sargam (Medium).jpg",
+        "image":"images/Sargam (Medium).JPG",
         "designation":"Finance HOD",
         "phone":"+91 99208 37184"
     },
     {
         "name":"Lulua Gadiwala",
-        "image":"images/Lullu (Medium).jpg",
+        "image":"images/Lullu (Medium).JPG",
         "designation":"Creativity HOD",
         "phone":"+91 86525 35297"
     },
     {
         "name":"Salman Mapari",
-        "image":"images/Salman (Medium).jpg",
+        "image":"images/Salman (Medium).JPG",
         "designation":"Creativity AHOD",
         "phone":"+91 84509 84456"
     },
@@ -159,13 +159,13 @@ const team_details = [
     },
     {
         "name":"Nirali Doshi",
-        "image":"images/Nirali (Medium).jpg",
+        "image":"images/Nirali (Medium).JPG",
         "designation":"Public Relations HOD",
         "phone":"+91 98924 26762"
     },
     {
         "name":"Preeti Gupta",
-        "image":`images/Preeti_2 (Medium).jpg`,
+        "image":`images/Preeti_2 (Medium).JPG`,
         "designation":"Public Relation AHOD",
         "phone":"+91 8355868706"
     }
