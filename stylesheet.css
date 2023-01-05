@@ -59,7 +59,7 @@ body{
 }
 .heading{
     font-size: 1.4rem;
-    background-color:hsl(35, 60%, 50%);;
+    background-color:hsl(35, 60%, 50%);
     margin-top: 2rem;
     color: #000000;
 }
@@ -74,6 +74,15 @@ body{
 } */
 .card img{
     /* border: 1px solid red; */
-    height: 160px;
-    object-fit: cover;
+    /* height: 250px; */
+    object-fit: contain;
+    border-radius: 5px;
+}
+.card-text{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.table th{
+    color: hsl(35, 60%, 50%);
 }
