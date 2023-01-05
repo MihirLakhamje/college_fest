@@ -14,6 +14,12 @@ body{
 }
 .brand-logo{
     width: 100px;
+    background-color: #15100d;
+    color: #c8a370;
+}
+body{
+    background-color: #000000;
+    color: hsl(35, 60%, 61%);
 }
 .utkarsh-hero{
     background-color: #000000;
@@ -103,4 +109,52 @@ body{
     .t-center{
         text-align: left;
     }
+.team-details{
+    /* margin: 3rem 0rem; */
+    background-color: black;
+}
+
+    
+}
+.heading{
+    font-size: 1.4rem;
+    background-color:hsl(35, 60%, 50%);
+    margin-top: 2rem;
+    color: #000000;
+}
+.card{
+    background-color: hsl(23, 24%, 25%);
+    padding: 8px;
+}
+.card p:first-child{
+    /* background-color: yellow; */
+    font-size: 1.2rem;
+}
+.card p:nth-child(2){
+    font-size: 0.8rem;
+    color:hsl(35, 20%, 61%);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    justify-content: end;
+}
+/* .card-body p{
+    bottom: 0px;
+} */
+.card img{
+    /* border: 1px solid red; */
+    /* height: 250px; */
+    object-fit: contain;
+    border-radius: 5px;
+}
+.card-text{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.table th{
+    color: hsl(35, 60%, 50%);
 }
