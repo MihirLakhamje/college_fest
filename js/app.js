@@ -234,42 +234,42 @@ const literary_arts = [
         "la_duration": 1.5,
         "la_player": 1,
         "la_category": "Premium",
-        "la_link": ""
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLScuPUVIziUqitGifUQarPp5nPSrbr92KdNv-k0IP065Cg2tuw/viewform"
     },
     {
         "la_name": "Grammar Nazi",
         "la_duration": 1.5,
         "la_player": 2,
         "la_category": "Standard",
-        "la_link": "https://docs.google.com/forms/d/1wSOGZD8NI8HG94Bxprm1b1PW76RD1qfZjqUMr1mZ7lI/viewform?ts=63b66ba4&edit_requested=true"
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSfMoVrSFgfmt9PtZMGNap0f29QhCx93V5XSeRRxRl9qhUUCpg/viewform"
     },
     {
         "la_name": "Niveau Relay (story relay)",
         "la_duration": 1.5,
         "la_player": 4,
         "la_category": "Premium",
-        "la_link": ""
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSejVTVQ74iv6aKWH2JUp_YsFtfoG9h2G3n2L-vzWuj5bO__Qw/viewform"
     },
     {
         "la_name": "Minutieux (JAM)",
         "la_duration": 2,
         "la_player": 2,
         "la_category": "Flagship",
-        "la_link": ""
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLScoHqQnM3Nfk-j1b6v3bFSqMltPIbnKAyQIMLADbgheksXhNA/viewform"
     },
     {
         "la_name": "Stoecia's Alegy (Poetry writing)",
         "la_duration": 1,
         "la_player": 1,
         "la_category": "Basic",
-        "la_link": ""
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSfIpBECR-RLk62YkSNN1TxqHdz83csiqWRKqk8mE0fiZ17V1A/viewform"
     },
     {
         "la_name": "Illusion Of Matrix(debate)",
         "la_duration": 1.5,
         "la_player": 2,
         "la_category": "Flagship",
-        "la_link": ""
+        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSeHusDaTN1DciNdqPHS2Y98wQMJBRfswhpgH0Ksb5Vb5WyEyg/viewform"
     }
 ];
 
@@ -649,7 +649,7 @@ sports.forEach(ele => {
                 <div class="d-flex justify-content-center t-center row row-gap-4">
                     <div class="col-lg-4">
                         <span>Duration:</span>
-                        <span>${ele.ss_fees}Hrs</span>
+                        <span>${ele.ss_fees}/-</span>
                     </div>
                     <div class="col-lg-4">
                         <span>Players:</span>
@@ -675,7 +675,7 @@ esports.forEach(ele => {
                 <div class="d-flex justify-content-center t-center row row-gap-4">
                     <div class="col-lg-4">
                         <span>Duration:</span>
-                        <span>${ele.es_fees}Hrs</span>
+                        <span>${ele.es_fees}/-</span>
                     </div>
                     <div class="col-lg-4">
                         <span>Players:</span>
