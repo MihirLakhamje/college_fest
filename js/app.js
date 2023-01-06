@@ -234,42 +234,42 @@ const literary_arts = [
         "la_duration": 1.5,
         "la_player": 1,
         "la_category": "Premium",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLScuPUVIziUqitGifUQarPp5nPSrbr92KdNv-k0IP065Cg2tuw/viewform"
+        "la_link": "https://forms.gle/xPYUysoTf2hAQHQe9"
     },
     {
         "la_name": "Grammar Nazi",
         "la_duration": 1.5,
         "la_player": 2,
         "la_category": "Standard",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSfMoVrSFgfmt9PtZMGNap0f29QhCx93V5XSeRRxRl9qhUUCpg/viewform"
+        "la_link": "https://forms.gle/5ZcLtNgWfxRMQase7"
     },
     {
         "la_name": "Niveau Relay (story relay)",
         "la_duration": 1.5,
         "la_player": 4,
         "la_category": "Premium",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSejVTVQ74iv6aKWH2JUp_YsFtfoG9h2G3n2L-vzWuj5bO__Qw/viewform"
+        "la_link": "https://forms.gle/TooE1G7vE9LBEDBWA"
     },
     {
         "la_name": "Minutieux (JAM)",
         "la_duration": 2,
         "la_player": 2,
         "la_category": "Flagship",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLScoHqQnM3Nfk-j1b6v3bFSqMltPIbnKAyQIMLADbgheksXhNA/viewform"
+        "la_link": "https://forms.gle/NhWzCLL3hvgpxqzQ7"
     },
     {
         "la_name": "Stoecia's Alegy (Poetry writing)",
         "la_duration": 1,
         "la_player": 1,
         "la_category": "Basic",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSfIpBECR-RLk62YkSNN1TxqHdz83csiqWRKqk8mE0fiZ17V1A/viewform"
+        "la_link": "https://forms.gle/dPHHxduqYfkHfeHP6"
     },
     {
         "la_name": "Illusion Of Matrix(debate)",
         "la_duration": 1.5,
         "la_player": 2,
         "la_category": "Flagship",
-        "la_link": "https://docs.google.com/forms/d/e/1FAIpQLSeHusDaTN1DciNdqPHS2Y98wQMJBRfswhpgH0Ksb5Vb5WyEyg/viewform"
+        "la_link": "https://forms.gle/oA887jbahs4DN9JE6"
     }
 ];
 
@@ -523,14 +523,14 @@ const informals = [
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLScj_WYBWKCYZxYy-ZWhKO1wVp4de9JaXOWMiGjiBos32LLj5w/viewform?usp=sf_link"
     },
     {
         "in_name": "Fashion show",
         "in_duration": 3,
         "in_player": "8 To 4",
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSdSAA6ZSZ6QsnoKMs20UD0xIL2NuMdJ_EnIQioslBIJTbk3bg/viewform?usp=sf_link"
     },
     {
         "in_name": "Escape room",
@@ -544,21 +544,21 @@ const informals = [
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSdF9c9-nBPF_N3InUjygq6L-76ATPXOIbikbmLN6O-PIQ6Slw/viewform?usp=sf_link"
     },
     {
         "in_name": "War of Cl's",
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLScHQX3J3aHPspqiU_-TZqnnXU_dncZwTxsyoi0bdVCZ_lBLrQ/viewform?usp=sf_link"
     },
     {
         "in_name": "War of DJ's",
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSd78IrJElQEDKUiO8TZeE2mCMBXdZrnMJuicSjrf_6yBqsKkg/viewform?usp=sf_link"
     }
 ];
 
