@@ -528,7 +528,7 @@ const informals = [
     {
         "in_name": "Fashion Show",
         "in_duration": 3,
-        "in_player": "8 To 4",
+        "in_player": "4 To 8",
         "in_category": "Flagship",
         "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSdSAA6ZSZ6QsnoKMs20UD0xIL2NuMdJ_EnIQioslBIJTbk3bg/viewform?usp=sf_link"
     },
@@ -648,7 +648,7 @@ sports.forEach(ele => {
                 <h3 class="fs-5">${ele.ss_name}</h3>
                 <div class="d-flex justify-content-center t-center row row-gap-4">
                     <div class="col-lg-4">
-                        <span>Duration:</span>
+                        <span>Fees:</span>
                         <span>${ele.ss_fees}/-</span>
                     </div>
                     <div class="col-lg-4">
@@ -674,7 +674,7 @@ esports.forEach(ele => {
                 <h3 class="fs-5">${ele.es_name}</h3>
                 <div class="d-flex justify-content-center t-center row row-gap-4">
                     <div class="col-lg-4">
-                        <span>Duration:</span>
+                        <span>Fees:</span>
                         <span>${ele.es_fees}/-</span>
                     </div>
                     <div class="col-lg-4">
