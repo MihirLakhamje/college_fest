@@ -713,7 +713,7 @@ performing_arts.forEach(ele => {
                     </div>
                 </div>
                 <div class="ms-4">
-                    <a href="${ele.link}" class="btn btn-primary">Register</a>
+                    <a href="${ele.pa_link}" class="btn btn-primary">Register</a>
                 </div>
             </div>
         </li>
