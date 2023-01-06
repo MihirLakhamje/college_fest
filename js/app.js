@@ -281,239 +281,239 @@ const fine_arts = [
         "fa_duration": 2,
         "fa_player": 1,
         "fa_category": "Premium",
-        "fa_link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
+        "fa_link": "https://docs.google.com/forms/d/e/1FAIpQLSfid9iwVlbHEII32yL50RAn7TVJM6sKI1yUBOnwkkh7VJw3Hg/viewform?usp=sf_link"
     },
     {
         "fa_name": "Streak Art(face painting + makeup)",
         "fa_duration": 2,
         "fa_player": 3,
         "fa_category": "Standard",
-        "fa_link": "https://docs.google.com/forms/d/1Sqh9JV28v0kadLY4ojP8v9oKLA2jlgxjJlXvILk5Ygg/viewform?ts=63b66edd&edit_requested=true"
+        "fa_link": "https://docs.google.com/forms/d/e/1FAIpQLSdwt4rX4M274iNy6rv_9RahXvnWLBZHx7bmM5IoNZT5HDverQ/viewform?usp=sf_link"
     },
     {
         "fa_name": "Pov Topia",
         "fa_duration": 2,
         "fa_player": 1,
         "fa_category": "Basic",
-        "fa_link": "https://docs.google.com/forms/d/1MORbFSINk691FXwga9K9sxlob2-3B1uC9jAWzProBKI/viewform?ts=63b66f7d&edit_requested=true"
+        "fa_link": "https://docs.google.com/forms/d/e/1FAIpQLScdJkfA6zQNmJqKk683qNMPuVX4N3AmiIBupfLfXHK0mwKxgg/viewform?usp=sf_link"
     },
     {
         "fa_name": "Peinture de Sac(tote bag painting)",
         "fa_duration": 2,
         "fa_player": 1,
         "fa_category": "Flagship",
-        "fa_link": "https://docs.google.com/forms/d/1cyOe6uY4k30pJlRX-cyUXfej_kITAG0XnO3lb19EN9A/viewform?ts=63b66fb4&edit_requested=true"
+        "fa_link": "https://docs.google.com/forms/d/e/1FAIpQLSc4nCAJp8KaZOdIRuVGlGfDikFkMP1H2XI26ZohkXTsmSWUjA/viewform?usp=sf_link"
     },
     {
         "fa_name": "Onirique (origami art)",
         "fa_duration": 2,
         "fa_player": 1,
         "fa_category": "Permium",
-        "fa_link": "https://docs.google.com/forms/d/1kjKf3rnjS0RHUVGHz4FwgV_JEiZBjcBW5mTRsmw2qK8/viewform?ts=63b67085&edit_requested=true"
+        "fa_link": "https://docs.google.com/forms/d/e/1FAIpQLScnW6EGzow8RjzI6ovTU-m27ax61kNJeuOtrgxCQABhywt0Kg/viewform?usp=sf_link"
     }
 ]
 
 const mass_media = [
     {
-        "mm_name": "Fluorite's magic (ad film)",
+        "mm_name": "Fluorite's Magic (ad film)",
         "mm_duration": 2.5,
         "mm_player": 2,
         "mm_category": "Flagship",
-        "mm_link": ""
+        "mm_link": "https://docs.google.com/forms/d/e/1FAIpQLSfQ_GqiqAXpTjORDqjs3W5rMo87gxu_I5PDNTGxGES8MgzmBQ/viewform?usp=sf_link"
     },
     {
         "mm_name": "Capture the perceiving of Gaia",
         "mm_duration": 2,
         "mm_player": 1,
         "mm_category": "Premium",
-        "mm_link": "https://docs.google.com/forms/d/1hBh-XfnmEtz5lLJCzNWrbEly0Jf-nH71CGBZr3uv7Jo/viewform?ts=63b66de2&edit_requested=true"
+        "mm_link": "https://docs.google.com/forms/d/e/1FAIpQLScnnNzBUD2lSVAYuNO7PT2NAK0-11P3AVmKQy8qBnPLYgUeSQ/viewform?usp=sf_link"
     },
     {
         "mm_name": "Shoot the Amethyst (journalism+short film)",
         "mm_duration": "Entire Day",
         "mm_player": 3,
         "mm_category": "Premium",
-        "mm_link": "https://docs.google.com/forms/d/1OEhW-gUsVwNR55vWEhnyztARPYLHZ6va9qPhOpy-_x8/viewform?ts=63b66a7a&edit_requested=true"
+        "mm_link": "https://docs.google.com/forms/d/e/1FAIpQLScqFeOrBswyl2bVA9vJ3tpVq65xd8-R-pTEKFG4nMdFI6LO2Q/viewform?usp=sf_link"
     },
     {
-        "mm_name": "Story of wuther and Brow(Story board)",
+        "mm_name": "Story of Wuther and Brow(Story board)",
         "mm_duration": 3,
         "mm_player": 1,
         "mm_category": "Flagship",
-        "mm_link": "https://docs.google.com/forms/d/1emTWQNDXvUSK_8kiFhqrANis-TzeDaUlxMieWOS7QW0/viewform?ts=63b66a95&edit_requested=true"
+        "mm_link": "https://docs.google.com/forms/d/e/1FAIpQLScr3DduMnBUfzlFTJr32yO2GByNOiUQEWz9WfaBGkWEZmw3SA/viewform?usp=sf_link"
     },
     {
-        "mm_name": "Spot the visage (model photography)",
+        "mm_name": "Spot the Visage (model photography)",
         "mm_duration": 2,
         "mm_player": "1 + 1 Model",
         "mm_category": "Standard",
-        "mm_link": "https://docs.google.com/forms/d/1Iz920dUk-AOeOOLwYu09DXdxZ1hCTMlqottXyhSciYY/viewform?ts=63b66ae6&edit_requested=true"
+        "mm_link": "https://docs.google.com/forms/d/e/1FAIpQLSd8JR30FfnxNLUU2RdtpqIqJWfNHO01lIYMgT3W5DUFwRaKTQ/viewform?usp=sf_link"
     }
 ]
 
 const sports = [
     {
-        "ss_name": "All white (box cricket)",
+        "ss_name": "All White (box cricket)",
         "ss_fees": 500,
         "ss_player": 6,
         "ss_category": "Flagship",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSecFCXOuqaRq6RYtb1fZ9Rl4YbVg-sIpioIrUyrNd-OyOWdRA/viewform?usp=sf_link"
     },
     {
-        "ss_name": "Fast and flashy(rink football)",
+        "ss_name": "Fast and Flashy(rink football)",
         "ss_fees": 700,
         "ss_player": 7,
         "ss_category": "Premium",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSceBbhT8HP7g0mBhk7GXlcuXWattiG4mELh9FmdR8Nj81JXVA/viewform?usp=sf_link"
     },
     {
         "ss_name": "Penumbra(Blind fold chess)",
         "ss_fees": 150,
         "ss_player": 2,
         "ss_category": "Premium",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSfC1uTZ94lc-x04pt44mcRQ04_0kHBaqBK0Rt7_f2-tpP89dg/viewform?usp=sf_link"
     },
     {
-        "ss_name": "Table Tennis (conqerst of table)",
+        "ss_name": "Conquest of Table (Table Tennis)",
         "ss_fees": 100,
         "ss_player": 1,
         "ss_category": "Premium",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSe9Psz3nikwV_voeanWWAGiAQ-V4Ue8xQulGFEJme74FgmyJw/viewform?usp=sf_link"
     },
     {
-        "ss_name": "The shuffle board (carrom)",
+        "ss_name": "The Shuffle Board (Carrom)",
         "ss_fees": 100,
         "ss_player": 1,
         "ss_category": "Standard",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSfvP3LhBtUpiw0XvCABQiOvJjZhhXpdDUQS8d_T0zyIa958ag/viewform?usp=sf_link"
     },
     {
         "ss_name": "Hercules",
         "ss_fees": 100,
         "ss_player": 1,
         "ss_category": "Flagship",
-        "ss_link": ""
+        "ss_link": "https://docs.google.com/forms/d/e/1FAIpQLSdhyMfvoOgILOEiChC4TVs8l4J1RV-7_v6T-t_cgvVcyFvhrA/viewform?usp=sf_link"
     }
 ]
 
 const esports = [
     {
-        "es_name": "FIFA",
+        "es_name": "Kicks of Kage (FIFA)",
         "es_fees": 100,
         "es_player": 1,
         "es_category": "Premium",
-        "es_link": ""
+        "es_link": "https://docs.google.com/forms/d/e/1FAIpQLSe4NixjT5iuHBdBuukm7BkkcvpwhurXWoxre_0VRG5hEfuTnw/viewform?usp=sf_link"
     },
     {
-        "es_name": "Valorant",
+        "es_name": "Hall of Fallen (Valorant)",
         "es_fees": 500,
         "es_player": 5,
         "es_category": "Flagship",
-        "es_link": ""
+        "es_link": "https://docs.google.com/forms/d/e/1FAIpQLScejEpI6Y8_am6C95LA1Gu3S7OFaP_7As1_BEEJA9s-6_PYSg/viewform?usp=sf_link"
     },
     {
-        "es_name": "BGMI (Classic)",
+        "es_name": "Dark War (BGMI Classic)",
         "es_fees": 200,
         "es_player": "4 + 1",
         "es_category": "Standard",
-        "es_link": ""
+        "es_link": "https://docs.google.com/forms/d/e/1FAIpQLSeim4TOwXo-sXmH78YlzyKaKmUVP37Io0RR8nuEdb8rT0hC2g/viewform?usp=sf_link"
     },
     {
-        "es_name": "BGMI (TDM)",
+        "es_name": "Dark War (BGMI TDM)",
         "es_fees": 100,
         "es_player": "4 + 1",
         "es_category": "Standard",
-        "es_link": ""
+        "es_link": "https://docs.google.com/forms/d/e/1FAIpQLSc3o5Izq-GfTTGdKMHamujMtViKt7CJ7nGVxYyhodFW5nIKVA/viewform?usp=sf_link"
     },
     {
-        "es_name": "CODM",
+        "es_name": "BLOODY NIGHT HELL (CODM)",
         "es_fees": 200,
         "es_player": "4 + 1",
         "es_category": "Standard",
-        "es_link": ""
+        "es_link": "https://docs.google.com/forms/d/e/1FAIpQLSfGnuD3sXoj4kteEWqK2P2RQ1_FPKMYUM250-R7wDe4Yxvl8Q/viewform?usp=sf_link"
     }
 ]
 
 const performing_arts = [
     {
-        "pa_name": "Salam-e-sur (Solo Singing)",
+        "pa_name": "Salam-E-Sur (Solo Singing)",
         "pa_duration": 2.5,
         "pa_player": 1,
         "pa_category": "Basic",
-        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLScYQ-X1lVjpRdOVCAjHOEiosyNvG_A_1ekwUvD8dyMXQlbXDA/viewform?edit_requested=true"
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSeHCopwv4jj-3Dp_McsKQNFp1g4nui5Jezy30tANLsC6dRqJQ/viewform?usp=sf_link"
     },
     {
-        "pa_name": "Rap + Beatboxing",
+        "pa_name": "Recap (Rap + Beatboxing)",
         "pa_duration": 2.5,
         "pa_player": 2,
         "pa_category": "Premium",
-        "pa_link": ""
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSf6N9RgyrDgOIRi6e1L8e5eb5sitX5_f1fSB_7V2xIXmcrsFg/viewform?usp=sf_link"
     },
     {
-        "pa_name": "Ha ha Hilarious (Stand Up)",
+        "pa_name": "Ha Ha Hilarious (Stand Up)",
         "pa_duration": 3.5,
         "pa_player": 1,
         "pa_category": "Standard",
-        "pa_link": ""
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSeYbTZZk_3wDyT_tPHyMgBJ_I8FRC-dxHR1y8g47NvAPBYCMw/viewform?usp=sf_link"
     },
     {
         "pa_name": "Rab Ne Bana Di Jodi (Group Dance)",
         "pa_duration": 2.5,
         "pa_player": 1,
         "pa_category": "Premium",
-        "pa_link": ""
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSfdi1_Hnh_sJ1yTJfOBU-O-CW81TX8jCLHR7XS-N6tI9p_Jbg/viewform?usp=sf_link"
     },
     {
         "pa_name": "Forge The Beat (Band)",
         "pa_duration": 2.5,
         "pa_player": 1,
         "pa_category": "Premium",
-        "pa_link": ""
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLScgWv8Z3bHoBiugoexTWXOspW9RNkoWraRY96oqHs-yr5d9ew/viewform?usp=sf_link"
     },
     {
-        "pa_name": "Halla bol (street play)",
+        "pa_name": "Halla Bol (Street play)",
         "pa_duration": 2.5,
         "pa_player": 1,
         "pa_category": "Basic",
-        "pa_link": ""
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLScp3d2zhMZdMZc3neFLTPTr8C8H87XRESQkTUeFJOhlSurHag/viewform?usp=sf_link"
     },
     {
         "pa_name": "Face off (Cypher)",
         "pa_duration": 4,
         "pa_player": 1,
         "pa_category": "Flagship",
-        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSdxNKPdPMpKyEvafuFUDpq0DrRxnNCXnNMVni8r6g0F3xDzYA/viewform?edit_requested=true"
+        "pa_link": "https://docs.google.com/forms/d/e/1FAIpQLSexr9uP3QdhnFlvY3La_BqzKXTDVHdLtqqqqiZ5gHXtyP7XUw/viewform?usp=sf_link"
     }
 ]
 
 const management = [
     {
-        "ma_name": "Product war",
+        "ma_name": "Product War",
         "ma_duration": 3,
         "ma_player": 2,
         "ma_category": "Standard",
-        "ma_link": "https://docs.google.com/forms/d/1_ksPu1Iqh7VlyZIv2nk1YV3e1nz2lCMmvGPcbCOJk8g/viewform?ts=63b66b07&edit_requested=true"
+        "ma_link": "https://docs.google.com/forms/d/e/1FAIpQLScP73Y9dGs7YJArlJCotPFUBfLsZq7Zg99CC4Y5VwlKVaHg5w/viewform?usp=sf_link"
     },
     {
-        "ma_name": "Occupational maze",
+        "ma_name": "Occupational Maze",
         "ma_duration": 3,
         "ma_player": 2,
         "ma_category": "Premium",
-        "ma_link": "https://docs.google.com/forms/d/1LgIWTBRDWImCit0xvVn4SYXocbipf4fs8VedB58DiWo/viewform?ts=63b66b1e&edit_requested=true"
+        "ma_link": "https://docs.google.com/forms/d/e/1FAIpQLSfjzW7f3yl_vLsGSlxli5VzBDEHBJyAMATzLZ-DJPP2M1q19g/viewform?usp=sf_link"
     },
     {
-        "ma_name": "Merger ferd",
+        "ma_name": "Merger Ferd",
         "ma_duration": 3,
         "ma_player": 1,
         "ma_category": "Flagship",
-        "ma_link": ""
+        "ma_link": "https://docs.google.com/forms/d/e/1FAIpQLSe2747ODuW8KO26PCbUwx2TOcubnSUJfW6SQi2sIiwk3sN-8g/viewform?usp=sf_link"
     },
     {
         "ma_name": "Mock Stock",
         "ma_duration": 3,
         "ma_player": 1,
         "ma_category": "Flagship",
-        "ma_link": ""
+        "ma_link": "https://docs.google.com/forms/d/e/1FAIpQLSeI3stFk7WPmm0f1Xca3pjb94TcKy56fUwLJXIh8Xh4x8ZwSA/viewform?usp=sf_link"
     }
 ]
 
@@ -526,14 +526,14 @@ const informals = [
         "in_link": "https://docs.google.com/forms/d/e/1FAIpQLScj_WYBWKCYZxYy-ZWhKO1wVp4de9JaXOWMiGjiBos32LLj5w/viewform?usp=sf_link"
     },
     {
-        "in_name": "Fashion show",
+        "in_name": "Fashion Show",
         "in_duration": 3,
         "in_player": "8 To 4",
         "in_category": "Flagship",
         "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSdSAA6ZSZ6QsnoKMs20UD0xIL2NuMdJ_EnIQioslBIJTbk3bg/viewform?usp=sf_link"
     },
     {
-        "in_name": "Escape room",
+        "in_name": "Escape Room",
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
