@@ -537,7 +537,7 @@ const informals = [
         "in_duration": 3,
         "in_player": 2,
         "in_category": "Flagship",
-        "in_link": ""
+        "in_link": "https://docs.google.com/forms/d/e/1FAIpQLSeWBbuKdbfU7mWql7MwgvV44TYhvU91l3Gk_ejHQj8pQKaQDg/viewform?usp=sharing"
     },
     {
         "in_name": "Top 5",
