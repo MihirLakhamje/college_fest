@@ -623,7 +623,7 @@ mass_media.forEach(ele => {
                 <div class="d-flex justify-content-center t-center row row-gap-4">
                     <div class="col-lg-4">
                         <span>Duration:</span>
-                        <span>${ele.mm_duration}Hrs</span>
+                        <span>${ele.mm_duration}</span>
                     </div>
                     <div class="col-lg-4">
                         <span>Players:</span>
